@@ -3,7 +3,7 @@
 	box-sizing: border-box;
 }
 body{
-	background: url("backgroundcss.jpeg");
+	background: url("backgorund_css.png");
 	background-repeat:no-repeat;
 	background-size: 100vw 100vw;
 }
@@ -15,31 +15,35 @@ body{
 .left{
 	width:380px; 
 	height:200px;
-	background-color: rgba(255,255,255,0.63);
+	background-color: rgba(243,1,1,0.34);
 	border-radius: 20px;
 	float: left;
 	margin: 0px 10px 10px 15px;
 	padding: 30px 30px 30px 30px;
-	border: solid 1.5px rgba(255,234,248,1.00);
 }
 .right{
 	width:380px; 
 	height:200px;
-	background-color: rgba(255,255,255,0.63);
+	background-color: rgba(1,37,239,0.38);
 	border-radius: 20px;
 	float: left;
 	margin: 0px 0px 10px 0px;
 	padding: 30px 30px 30px 30px;
-	border: solid 1.5px rgba(255,234,248,1.00);
 	}
 footer{
 	background-color: rgba(255,255,255,0.63);
 	clear: both;
 }
-header > h1{text-align: center; color: rgba(228,247,254,1.00)}
+header > h1{font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; text-align: center; color: rgba(230,5,5,1.00); text-decoration: none}
 #container .left{
-	background-color: rgba(124,124,124,0.67);
-	font-family:"Times New Roman"
+	background-color: rgba(237,0,3,0.40);
+	font-family:"Franklin Gothic Bold"
 }
 
-
+.left a:link{
+	text-decoration: none;
+	color: rgba(255,205,0,1.00);
+}
+.left hover{
+	font-size: 1.5em;
+}
